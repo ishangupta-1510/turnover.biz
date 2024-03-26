@@ -1,5 +1,4 @@
 import Categories from "@/components/Categories";
-import {createCategory} from "@/lib/categoryData";
 import {getCategory} from "@/lib/pagination";
 import {getCurrentUser} from "@/lib/user";
 import {redirect} from "next/navigation";
