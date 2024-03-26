@@ -8,6 +8,10 @@ export async function POST(req: Request) {
         email: email, // Assuming your user table has an 'email' field
       },
     });
+    return {
+      status: 200,
+      body: "success",
+    };
     console.log(user);
   } catch (error) {
     console.error("Error:", error);
